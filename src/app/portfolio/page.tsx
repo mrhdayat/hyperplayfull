@@ -5,12 +5,12 @@ import gsap from "gsap";
 import Image from "next/image";
 
 const works = [
-  { id: 1, title: "Awwwards Pick", category: "Experimental", src: "https://picsum.photos/seed/aww/1000/1000" },
-  { id: 2, title: "Godly.website", category: "E-Commerce", src: "https://picsum.photos/seed/godly/1000/1000" },
-  { id: 3, title: "Museumcore", category: "Installation", src: "https://picsum.photos/seed/museum/1000/1000" },
-  { id: 4, title: "Hyperreal", category: "SaaS", src: "https://picsum.photos/seed/saas/1000/1000" },
-  { id: 5, title: "Brutalist Base", category: "Agency", src: "https://picsum.photos/seed/brut/1000/1000" },
-  { id: 6, title: "Playful Grid", category: "Portfolio", src: "https://picsum.photos/seed/play/1000/1000" },
+  { id: 1, title: "Awwwards Pick", category: "Experimental", src: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop" },
+  { id: 2, title: "Godly.website", category: "E-Commerce", src: "https://images.unsplash.com/photo-1604871000636-074fa5117945?q=80&w=1000&auto=format&fit=crop" },
+  { id: 3, title: "Museumcore", category: "Installation", src: "https://images.unsplash.com/photo-1510936111840-65e151ad71bb?q=80&w=1000&auto=format&fit=crop" },
+  { id: 4, title: "Hyperreal", category: "SaaS", src: "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=1000&auto=format&fit=crop" },
+  { id: 5, title: "Brutalist Base", category: "Agency", src: "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1000&auto=format&fit=crop" },
+  { id: 6, title: "Playful Grid", category: "Portfolio", src: "https://images.unsplash.com/photo-1506744626753-1fa44df31c7f?q=80&w=1000&auto=format&fit=crop" },
 ];
 
 export default function PortfolioPage() {

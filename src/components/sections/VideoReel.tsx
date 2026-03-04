@@ -46,7 +46,7 @@ export default function VideoReel() {
         className="w-[80vw] h-[60vh] md:w-[60vw] museum-frame quirky-border-alt overflow-hidden relative z-10"
       >
         <Image
-          src="https://picsum.photos/seed/video/2832/1888"
+          src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=2832&auto=format&fit=crop"
           alt="Showreel Thumbnail"
           fill
           className="object-cover opacity-80"

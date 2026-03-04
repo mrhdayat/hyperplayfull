@@ -96,10 +96,10 @@ export default function PreviewsPage() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-moss/20 to-transparent mix-blend-multiply" />
             <Image
-              src="https://picsum.photos/seed/product/2070/1380"
-              alt="3D Product"
+              src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=2070&auto=format&fit=crop"
+              alt="Interactive Object"
               fill
-              className="object-cover opacity-80 p-4 quirky-border"
+              className="object-cover transition-transform duration-700 hover:scale-105"
               style={{ transform: "translateZ(50px)" }}
             />
             <div

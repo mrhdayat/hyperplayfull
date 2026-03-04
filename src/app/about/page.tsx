@@ -50,10 +50,10 @@ export default function AboutPage() {
 
         <div ref={imageGroupRef} className="lg:w-1/2 w-full h-[600px] relative museum-frame quirky-border shadow-2xl overflow-hidden group">
           <Image
-            src="https://picsum.photos/seed/agency/2670/1500"
-            alt="Agency Culture"
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2670&auto=format&fit=crop"
+            alt="Agency Space"
             fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
+            className="object-cover transition-transform duration-1000 group-hover:scale-110"
             priority
           />
           <div className="absolute inset-0 bg-moss/20 mix-blend-multiply opacity-50 transition-opacity group-hover:opacity-0" />

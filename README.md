@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pixel Forge Codex / Ascendia
 
-## Getting Started
+<p align="center">
+  A cutting-edge web application exploring the intersection of **Hyperreality**, **Playful Brutalism**, and **Museumcore**.
+</p>
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project embodies a cinematic, spatial storytelling approach designed for visionary brands. Built on typographic tension, kinetic motion, and perfectly curated imperfections, it delivers a deeply interactive experience through advanced GSAP scroll animations and Next.js performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Design Philosophy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Spatial UX**: Multi-dimensional depth that shatters the flat screen illusion.
+- **Kinetic Flow**: Living typography that breathes, stretches, and commands attention.
+- **Brutalist Joy**: Raw, unapologetic geometry colliding with fluid mechanics.
+- **Hyper Lighting**: Volumetric illumination and refractions for a modern aesthetic.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+### Desktop Views
+<div style="display:flex; gap: 10px;">
+  <img src="./screenshot-home-desktop.png" alt="Home - Desktop" width="48%">
+  <img src="./screenshot-about-desktop.png" alt="About - Desktop" width="48%">
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<div style="display:flex; gap: 10px;">
+  <img src="./screenshot-portfolio-desktop.png" alt="Portfolio - Desktop" width="48%">
+  <img src="./screenshot-previews-desktop.png" alt="Previews - Desktop" width="48%">
+</div>
 
-## Deploy on Vercel
+### Mobile Views
+<div style="display:flex; gap: 10px;">
+  <img src="./screenshot-home-mobile.png" alt="Home - Mobile" width="24%">
+  <img src="./screenshot-about-mobile.png" alt="About - Mobile" width="24%">
+  <img src="./screenshot-portfolio-mobile.png" alt="Portfolio - Mobile" width="24%">
+  <img src="./screenshot-previews-mobile.png" alt="Previews - Mobile" width="24%">
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technical Architecture
+
+### Tech Stack
+- **Framework**: [Next.js 15 (App Router)](https://nextjs.org) + React 19
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com) (Inline Themes)
+- **Animation**: [GSAP ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) + `@gsap/react`
+- **Testing**: [Playwright](https://playwright.dev)
+- **Typography**: `Playfair Display` (Serif) & `Space Mono` (Monospace) 
+
+## AI Agent Skills Integrated
+
+During the development and refactoring process, we employed a sophisticated suite of specialized AI `.agent/skills` to achieve Awwwards-level quality:
+
+- `ui-ux-pro-max` & `frontend-design`: Ensuring structural glassmorphism and robust UI aesthetics.
+- `scroll-experience`: Authoring and debugging advanced timeline-based ScrollTrigger animations efficiently with `useGSAP`.
+- `web-performance-optimization` & `react-best-practices`: Adhering to Next.js App Router performance tokens and avoiding global state mutation/memory leaks.
+- `playwright-skill` & `e2e-testing`: Automating multi-viewport UI verification seamlessly.
+- `copywriting` & `seo-fundamentals`: Developing an editorial, poetic, and engaging brand voice for maximum impact.
+
+## Setup & Local Development
+
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
+
+3. **View Locally**
+   Open [http://localhost:3000](http://localhost:3000)
+
+## Running E2E QA Tests (Screenshots)
+
+We have a built-in Playwright script to QA the animations and layouts across device viewports.
+
+1. Keep the dev server running (`npm run dev`).
+2. Run the screenshot generator:
+   ```bash
+   node playwright-screenshots.js
+   ```
+3. Check the root folder for fresh `screenshot-*-*.png` files.

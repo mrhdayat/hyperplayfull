@@ -7,10 +7,10 @@ import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 
 const images = [
-  "https://picsum.photos/seed/gal1/2564/1709",
-  "https://picsum.photos/seed/gal2/2070/1380",
-  "https://picsum.photos/seed/gal3/2070/1380",
-  "https://picsum.photos/seed/gal4/2564/1709",
+  "https://images.unsplash.com/photo-1551009175-8a68da93d5f9?q=80&w=2564&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1533038590840-1cde6e668a07?q=80&w=2070&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1601662528567-526cd06f6582?q=80&w=2070&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1490122417551-6871e130201f?q=80&w=2564&auto=format&fit=crop",
 ];
 
 export default function InteractiveGallery() {
